@@ -3,7 +3,7 @@
 
 
 ```
-var theVideo = document.getElementByTagName("video");
+var theVideo = document.getElementById("video");
   document.onkeydown = function(event) {
       switch (event.keyCode) {
          case 37:
